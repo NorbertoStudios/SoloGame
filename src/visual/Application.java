@@ -3,11 +3,11 @@ package visual;
 import javax.swing.*;
 import java.awt.*;
 
-public class ApplicationFrame extends JFrame
+public class Application extends JFrame
 {
     JPanel main;
 
-    public ApplicationFrame()
+    public Application()
     {
         // Setting the Frame
         setTitle("Game Prototype Frame");
