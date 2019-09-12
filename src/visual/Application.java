@@ -3,22 +3,26 @@ package visual;
 import javax.swing.*;
 import java.awt.*;
 
-public class Application extends JFrame
+public class Application extends Canvas
 {
-    JPanel main;
+    private JFrame frame;
+
+    private static final int WIDTH = 600;
+    private static final int HEIGHT = 600;
+
 
     public Application()
     {
         // Setting the Frame
-        setTitle("Game Prototype Frame");
-        setResizable(false);
-        setBounds(2300,200,700,500);
-        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        setVisible(true);
+        frame = new JFrame();
 
-        main = new JPanel();
-        main.setBackground(Color.BLUE);
+        frame.setTitle("Game Prototype Frame");
+        frame.setSize(WIDTH, HEIGHT);
+        frame.setResizable(false);
+        frame.setFocusable(true);
+        frame.setLocationRelativeTo(null);
+        frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        frame.setVisible(true);
 
-        add(main);
     }
 }
