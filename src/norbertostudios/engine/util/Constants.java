@@ -55,7 +55,7 @@ public class Constants {
 /////////////////
 
 
-    public static final float JUMP_SPEED = -.95f;
+    public static final float JUMP_SPEED = -.65f;
     public static final float GRAVITY = 0.002f;
     public static final float MAX_SPEED = 0.5f;
 

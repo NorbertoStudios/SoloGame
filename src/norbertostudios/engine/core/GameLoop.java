@@ -72,7 +72,7 @@ public class GameLoop extends GameBase {
         slime = new GreenSlime(Assets.enemiesHashMap.get(0), new Vector2d(1620,580), new Vector2d());
         //slime = new GreenSlime(Assets.enemiesHashMap.get(0), new Vector2d(1942,901), new Vector2d());
 
-        debugging = new Debugging();
+//        debugging = new Debugging();
 
 //        messages.add(new Message(new Vector2d(Constants.WIDTH/2,Constants.HEIGHT/2), false,
 //                "Start", Color.WHITE,true,Assets.fontBig,this));

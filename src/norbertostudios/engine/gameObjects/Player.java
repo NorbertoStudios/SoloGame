@@ -41,7 +41,7 @@ public class Player extends Creature {
     public Player(BufferedImage texture, Vector2d position, Vector2d velocity) {
         super(texture, position, velocity);
 
-        walking = 0;
+        walking = 10;
         isFacingRight = true;
 
         spawnTime = new Chronometer();
@@ -56,7 +56,7 @@ public class Player extends Creature {
 
         gravity = 0.0;
         jumping = 0;
-        jumpingHeight = 40;
+        jumpingHeight = 20;
 
 
         spawning = false;
@@ -98,7 +98,7 @@ public class Player extends Creature {
 //            jumpAnim();
 
             velocity = new Vector2d(velocity.getX(), Constants.JUMP_SPEED);
-            MainCamera.y = (int) position.getY() + 50;
+            MainCamera.y = (int) position.getY() + 10;
             jumping++;
             if (jumping >= jumpingHeight) {
                 jumping = 0;
