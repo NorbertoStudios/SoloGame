@@ -45,8 +45,6 @@ public abstract class Creature extends GameObject {
         this.texture = texture;
         this.velocity = velocity;
 
-
-
         isFalling = true;
         isJumping = false;
         onGround = false;

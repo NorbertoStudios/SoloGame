@@ -56,7 +56,7 @@ public class Player extends Creature {
 
         gravity = 0.0;
         jumping = 0;
-        jumpingHeight = 20;
+        jumpingHeight = 50;
 
 
         spawning = false;

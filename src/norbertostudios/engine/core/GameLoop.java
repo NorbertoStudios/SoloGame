@@ -88,7 +88,7 @@ public class GameLoop extends GameBase {
         player.update(elapsedTime);
         slime.update(elapsedTime);
 
-        debugging.debugUpdate();
+//        debugging.debugUpdate();
         checkCollisionWithPlayer();
     }
 
@@ -146,7 +146,7 @@ public class GameLoop extends GameBase {
         hud.drawScore(g);
         hud.drawLives(g);
 
-        debugging.debugDraw(g);
+//        debugging.debugDraw(g);
 
     }
 
